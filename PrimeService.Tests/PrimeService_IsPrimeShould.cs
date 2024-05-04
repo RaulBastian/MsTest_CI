@@ -1,4 +1,5 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+using Newtonsoft.Json.Linq;
 using Prime.Services;
 
 namespace Prime.UnitTests.Services
@@ -30,6 +31,14 @@ namespace Prime.UnitTests.Services
             var result = _primeService.IsPrime(value);
 
             Assert.IsFalse(result, $"{value} should not be prime");
+        }
+
+        [TestMethod]
+        public void IsPrime_InputIs2_ReturnTrue()
+        {
+            var result = _primeService.IsPrime(2);
+
+            Assert.IsTrue(result, $"2 should be prime");
         }
     }
 }

@@ -9,3 +9,4 @@ E:\Projects\Github\MsTest\unit-testing-using-mstest\PrimeService\obj\Debug\net8.
 E:\Projects\Github\MsTest\unit-testing-using-mstest\PrimeService\obj\Debug\net8.0\refint\PrimeService.dll
 E:\Projects\Github\MsTest\unit-testing-using-mstest\PrimeService\obj\Debug\net8.0\PrimeService.pdb
 E:\Projects\Github\MsTest\unit-testing-using-mstest\PrimeService\obj\Debug\net8.0\ref\PrimeService.dll
+E:\Projects\Github\MsTest\unit-testing-using-mstest\PrimeService\obj\Debug\net8.0\PrimeService.sourcelink.json
